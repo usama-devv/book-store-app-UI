@@ -144,13 +144,13 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
                         widget.book.genre,
                         "GENRE",
                       ),
-                      const SizedBox(width: 5),
+                      const SizedBox(width: 10),
                       moreMovieInfo(
                         "https://cdn-icons-png.freepik.com/512/4951/4951447.png",
                         widget.book.language,
                         "LANGUAGE",
                       ),
-                      const SizedBox(width: 5),
+                      const SizedBox(width: 10),
                       moreMovieInfo(
                         "https://cdn-icons-png.freepik.com/128/5824/5824120.png",
                         widget.book.age,
